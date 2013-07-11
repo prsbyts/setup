@@ -44,5 +44,5 @@ ln -sf dotfiles/.emacs.d .
 #Install heroku toolbelt
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 heroku login
-ssh-keygen -t rsa
+ssh-keygen -t rsa -C prsbyts@gmail.com
 heroku keys:add
