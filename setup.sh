@@ -52,4 +52,4 @@ git config --global user.name "Prsbyts"
 git config --global user.email "prsbyts@gmail.com"
 
 #Set an alias for emacs to run only in the terminal
-alias emacs = "emacs -nw"
+alias emacs='emacs -nw'
