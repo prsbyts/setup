@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/swtspt/.nvm/v0.10.12/bin/node',
+1 verbose cli   '/home/swtspt/.nvm/v0.10.12/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'jshint' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose read json /home/swtspt/.nvm/v0.10.12/lib/package.json
+5 verbose read json /home/swtspt/.nvm/v0.10.12/lib/package.json
+6 verbose cache add [ 'jshint', null ]
+7 verbose cache add name=undefined spec="jshint" args=["jshint",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'jshint',
+8 verbose parsed url   path: 'jshint',
+8 verbose parsed url   href: 'jshint' }
+9 silly lockFile da5c03cb-jshint jshint
+10 verbose lock jshint /home/swtspt/.npm/da5c03cb-jshint.lock
+11 silly lockFile da5c03cb-jshint jshint
+12 verbose addNamed [ 'jshint', '' ]
+13 verbose addNamed [ null, '' ]
+14 silly lockFile a02a2468-jshint jshint@
+15 verbose lock jshint@ /home/swtspt/.npm/a02a2468-jshint.lock
+16 silly lockFile a02a2468-jshint jshint@
+17 error Error: EACCES, open '/home/swtspt/.npm/a02a2468-jshint.lock'
+17 error  { [Error: EACCES, open '/home/swtspt/.npm/a02a2468-jshint.lock']
+17 error   errno: 3,
+17 error   code: 'EACCES',
+17 error   path: '/home/swtspt/.npm/a02a2468-jshint.lock' }
+18 error Please try running this command again as root/Administrator.
+19 error System Linux 3.8.0-26-generic
+20 error command "/home/swtspt/.nvm/v0.10.12/bin/node" "/home/swtspt/.nvm/v0.10.12/bin/npm" "install" "-g" "jshint"
+21 error cwd /home/swtspt/var/setup
+22 error node -v v0.10.12
+23 error npm -v 1.2.32
+24 error path /home/swtspt/.npm/a02a2468-jshint.lock
+25 error code EACCES
+26 error errno 3
+27 error stack Error: EACCES, open '/home/swtspt/.npm/a02a2468-jshint.lock'
+28 verbose exit [ 3, true ]

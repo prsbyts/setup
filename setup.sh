@@ -41,11 +41,6 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
-#Install heroku toolbelt
-wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
-heroku login
-ssh-keygen -t rsa -C prsbyts@gmail.com
-heroku keys:add
 
 #Setup git global config
 git config --global user.name "Prsbyts"
@@ -53,3 +48,10 @@ git config --global user.email "prsbyts@gmail.com"
 
 #Set an alias for emacs to run only in the terminal
 alias emacs='emacs -nw'
+
+
+#Install heroku toolbelt
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+heroku login
+ssh-keygen -t rsa -C prsbyts@gmail.com
+heroku keys:add
