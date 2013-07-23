@@ -55,3 +55,5 @@ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 heroku login
 ssh-keygen -t rsa -C prsbyts@gmail.com
 heroku keys:add
+
+echo "Note if you change the default id_rsa.pub then update the github.com with this key."
